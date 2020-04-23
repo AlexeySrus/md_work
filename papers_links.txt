@@ -1,0 +1,2 @@
+paper name; url
+Обработка медицинских изображений как необходимый инструментарий медицинского диагностического процесса; http://www.course-as.ru/download/pdf/Processing_of_medical_images.pdf
