@@ -299,15 +299,20 @@ $$P = \{I_{i, j}\}_ {(i - i_p)^2 + (j - j_p)^2 \le d^2},\ \text{где }i_p, j_p
 \subsection{Подходы, основанные на нейросетях}
 
 % Печать списка литературы (библиографии)
-\printbibliography[%{}
-    heading=bibintoc%
-    %,title=Библиография % если хочется это слово
-]
+% \printbibliography[%{}
+%     heading=bibintoc%
+%     %,title=Библиография % если хочется это слово
+% ]
 % Файл со списком литературы: biblio.bib
 % Подробно по оформлению библиографии:
 % см. документацию к пакету biblatex-gost
 % http://ctan.mirrorcatalogs.com/macros/latex/exptl/biblatex-contrib/biblatex-gost/doc/biblatex-gost.pdf
 % и огромное количество примеров там же:
 % http://mirror.macomnet.net/pub/CTAN/macros/latex/contrib/biblatex-contrib/biblatex-gost/doc/biblatex-gost-examples.pdf
+
+\appendix
+\section{\\Программная реализация работы}
+\markdownInput{markdown/README.md}
+
 
 \end{document}
