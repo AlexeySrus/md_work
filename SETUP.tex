@@ -10,7 +10,11 @@
 \usepackage [T2A] {fontenc}   % Кириллица в PDF файле
 \usepackage [utf8] {inputenc} % Кодировка текста: utf-8
 \usepackage [russian] {babel} % Переносы, лигатуры
-% \usepackage [toc,page] {appendix}
+\usepackage [toc,page] {appendix}
+\usepackage{pdfsync}
+
+\renewcommand{\appendixtocname}{Приложения}
+\renewcommand{\appendixpagename}{Приложения}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Создание макроса управления элементами, специфичными
